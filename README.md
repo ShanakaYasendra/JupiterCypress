@@ -1,4 +1,4 @@
-# JupiterCypress
+# Jupiter Toys Cypress Test
 
 ## PlanIt Test
 
