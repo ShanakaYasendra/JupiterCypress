@@ -59,15 +59,13 @@ describe ("Contact Page Test",()=>{
         contact.enter_surname('smith');
         contact.click_submit();
         contact.get_progressbar().should('be.visible');
-
-       if( cy.get('.bar')>0)
-       {
-           console.log('hi');
-           cy.wait(5000);
-       }
+        
+ 
         cy.get('[class="alert alert-success"]');
 
-      cy.get('[class="alert alert-success"]').should('contain','we appreciate your feedback')
+                cy.get('[class="alert alert-success"]').should('contain','we appreciate your feedback')
+
+       
         
 
     })
